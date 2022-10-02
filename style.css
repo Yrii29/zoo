@@ -10,6 +10,11 @@ img {
 
 }
 
+div {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   /* overflow: hidden;
   min-height: 100%;
@@ -67,20 +72,52 @@ img {
   margin-top: 35px;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------- */
 
-.Wilderness__items {
+
+
+.Animal {
+  margin-top: 180px;
+}
+
+.Animal__items {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: inline-flex;
-  margin-left: -30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
   margin-top: -20px;
-
 }
 
-.Wilderness__list {
-  flex-basis: calc(100 / 3 - 20px);
-  margin-left: 20px;
+.Animal__list {
+  border: 1px solid;
+  flex-basis: calc(100% / 3 - 20px);
   margin-top: 20px;
+}
 
+.Animal__current {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Animal__subject {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  margin: 15px auto 5px 10px;
+}
+
+
+.Animal__text {
+  color: #333841;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Roboto;
+  margin: 15px auto 5px 15px;
+}
+
+.Animal__icon {
+  margin: 10px 10px 15px auto;
 }
