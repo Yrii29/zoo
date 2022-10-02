@@ -1,6 +1,6 @@
 * {
   margin: 0 auto;
-  background-color: #E1DDD4;
+  /* background-color: #E1DDD4; */
 }
 
 img {
@@ -88,6 +88,7 @@ div {
   flex-wrap: wrap;
   margin-left: -20px;
   margin-top: -20px;
+  margin-bottom: 80px;
 }
 
 .Animal__list {
@@ -121,3 +122,20 @@ div {
 .Animal__icon {
   margin: 10px 10px 15px auto;
 }
+
+
+.Animal__btn {
+  width: 300px;
+  height: 55px;
+  background-color: #FE9013;
+  border: 1px solid;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.Animal__btn-text {
+  margin: auto;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
